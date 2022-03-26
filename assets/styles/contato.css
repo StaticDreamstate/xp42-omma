@@ -1,0 +1,106 @@
+main {
+    background: url('../images/banner-formulario.png') 50% 0 repeat-x;
+}
+
+main > section h2 {
+    margin: 0 122px 297px;
+    padding-top: 49px;
+    width: 419px;
+    font-size: 70px;
+    font-weight: 700;
+    color: white;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+}
+
+main > section h2::after {
+    content: ' :)';
+}
+
+main > section {
+    font-family: Nunito;
+}
+
+form {
+    background: url('../images/image.png') 15px 0 no-repeat;
+}
+
+fieldset {
+    padding: 89px 15px 164px 35px;
+    margin: 0 15px 50px 380px;
+    border: 1px solid orange;
+    border-radius: 20px;
+}
+
+legend {
+    font-family: Ubuntu;
+    display: block;
+    float: left;
+    clear: both;
+    font-size: 40px;
+    color: #FFC107;
+    font-weight: 700;
+    margin: 0 0 64px;
+}
+
+input[type=text], input[type=email], textarea {
+    box-sizing: border-box;
+    margin: 0 0 23px;
+    padding: 10px 35px 10px 35px;
+    width: 100%;
+    border: 1px solid #FFA000;
+    border-radius: 7px;
+}
+
+input[type=submit] {
+    background: #FFC107;
+    border-radius: 50px;
+    color: white;
+    padding: 14px 50px;
+    border: none;
+    text-transform: lowercase;
+}
+
+@media only screen and (max-width: 768px) {
+
+    header {
+        width: 70%;
+    }
+
+    legend {
+        padding-top: 20px;
+    }
+
+    nav {
+        width: 70%;
+    }
+    
+    form {
+        background-image: none;
+        width: 67%;
+    }
+
+    fieldset {
+        margin-left:15px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+
+    }
+
+    div {
+        margin-left:15px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 87%;
+
+    } 
+
+    main {
+        background: url('../images/banner-formulario.png') 100% 0 repeat-x;
+    }
+
+    }
+
